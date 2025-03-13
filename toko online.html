@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AVG Online Store</title>
+    <style>
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+       
+        .site-header {
+            background-color: rgb(45, 144, 108);
+            color: #f5f5f5;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .site-header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px; 
+        }
+
+        .site-header img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%; 
+            margin-top: 10px;
+        }
+
+        
+        .site-nav {
+            background-color: #e0f2f1;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .site-nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: rgb(45, 144, 108);
+            font-weight: bold;
+        }
+
+        .site-nav a:hover {
+            color: rgb(45, 144, 108);
+        }
+
+        
+        .site-main {
+            padding: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .intro {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .store-article {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+
+        .product-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .product-card {
+            background-color: #e0f7fa;
+            border: 2px solid #b2dfdb;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s; 
+        }
+
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+        }
+
+        .product-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .product-card h3 {
+            margin-top: 15px;
+            color: rgb(45, 144, 108);
+        }
+
+        .product-card p {
+            color: rgb(45, 144, 108);
+            font-weight: bold;
+        }
+
+       
+        .site-footer {
+            background-color: rgb(45, 144, 108);
+            color: #f5f5f5;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        .site-footer a {
+            color: #f5f5f5;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .site-footer a:hover {
+            text-decoration: underline;
+        }
+
+   
+        @media (max-width: 768px) {
+            .site-nav {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .site-nav a {
+                margin: 5px 0; 
+            }
+
+            .site-main {
+                padding: 20px; 
+            }
+
+            .product-container {
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="site-header">
+        <h1>AVG</h1>
+        <h3>High Quality Products With Low Prices!</h3>
+        <img src="WhatsApp Image 2025-02-18 at 17.24.12.jpeg" alt="AVG Logo">
+         
+    </header>
+
+    <nav class="site-nav">
+    <li><a href="toko online home.html">Home</a></li>
+    <li><a href="toko online.html">Store</a></li>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a> 
+</nav>
+
+<main>
+
+    <section class="intro">
+        <h2>Welcome to AVG: Get high quality products at a lower price!</h2>
+        <p>We have every product available for a very low price!</p>
+    </section>
+    
+   
+    <section id="products">
+        <h2 style="text-align: center; margin-bottom: 20px;">Toys</h2>
+        <div class="product-container">
+            
+            <div class="product-card">
+                <img src="https://rukminim2.flixcart.com/image/850/1000/xif0q/vehicle-pull-along/b/c/6/lamborghini-sian-mattel-hotwheels-3-original-imaghyvh2hscnmvh.jpeg?q=90&crop=false" alt= "Mattel hotwheels Lamborghini Sian  (Green)">
+                <h3>Mattel hotwheels Lamborghini Sian  (Green)</h3>
+                <p>Rp 50.000</p>
+            </div>
+          
+            <div class="product-card">
+                <img src="https://m.media-amazon.com/images/I/81Ykz9TAacL.jpg" alt="Hot Wheels Toy Cars 20-Pack, Set of 20 Die-Cast 1:64 Scale Toy Sports & Race Vehicles for Kids & Collectors (Styles May Vary)">
+                <h3>Hot Wheels Toy Cars 20-Pack, Set of 20 Die-Cast 1:64 Scale Toy Sports & Race Vehicles for Kids & Collectors (Styles May Vary)</h3>
+                <p>Rp 500.000</p>
+            </div>
+           
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtJVbkrzSAs2Odn_0Bbe7ciPLo3ZvLLiXi-g&s" alt=" thomas the train efisien edisi khusus gordon ts21">
+                <h3> thomas the train efisien edisi khusus gordon ts21</h3>
+                <p>Rp 350.000</p>
+            </div>
+           
+            <div class="product-card">
+                <img src="https://gw.alicdn.com/imgextra/i1/2201168176213/O1CN01vrhXOW1vlbi0zxOvw_!!2-item_pic.png_540x540q90.jpg" alt="Takara tomy thomas si mesin tangki dan model mainan lokomotif uap gordon">
+                <h3>Takara tomy thomas si mesin tangki dan model mainan lokomotif uap gordon</h3>
+                <p>Rp 300.000</p>
+            </div>
+        </div>
+    </section>
+    <section id="products">
+        <h2 style="text-align: center; margin-bottom: 20px;">Electronic Devices</h2>
+        <div class="product-container">
+         
+            <div class="product-card">
+                <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTCi9l-ZnAwJcgw3b249HM0CIRQawbo6tejaysLcOsLs7wQMiZRNK0Qk-Le7VuaK_1qcLHVDnZF4i0lVTKWO4NvwUjaqrfvzry4v1fkOSIlrIm54bTHf4W9" alt="Lenovo LOQ 15IAX9 Gaming Notebook / Laptop Gaming Luna">
+                <h3>Lenovo LOQ 15IAX9 Gaming Notebook / Laptop Gaming Luna</h3>
+                <p>Rp 2.500.000</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSuZXsa1diBJ4CHKyXcYMeENzGuj8dX7uLcry6mGcciFBP0Aa61hZjuWH9zsbF5IqQsdlY5OdUXsEqxSqCmuBdi0H_LmJ11z1wp49DfvTn2Jfj1FjKGBFxx" alt="Laptop Asus X441 RAM 4GB/SSD 256GB/LAPTOP MURAH/WINDOWS 10">
+                <h3>Laptop Asus X441 RAM 4GB/SSD 256GB/LAPTOP MURAH/WINDOWS 10</h3>
+                <p>Rp 1.900.000</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQMSX3nmPcgIWpUhFSKjcBLZreUFEKC-zxE5Ibbax6VvUq-tIK5YY73apNNs2KQvCfHntgIJd7OtZbH_6D3W8ZgGjTB9kvgsb1j5H5obgNv1WjRE-YDKMRQ" alt="Samsung Inci Led 4K Smart Tv">
+                <h3>Samsung Inci Led 4K Smart Tv</h3>
+                <p>Rp 5.000.000</p>
+            </div>
+           
+            <div class="product-card">
+                <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTIz_jXrdDIo_NnnmfN9lXly4KImWjXEVpnGyJph5QXiV2zxZHYml9LJHpuklX8YqK5Rz4DLbMXqwRe4K7OXVjdJPcXtqdNU2z259ecLj7fVdT4XbukaOId" alt="iPhone 15 128GB Green">
+                <h3>iPhone 15 128GB Green</h3>
+                <p>Rp 11.500.000</p>
+            </div>
+        </div>
+    </section>
+    <section id="products">
+        <h2 style="text-align: center; margin-bottom: 20px;">Football Shirts</h2>
+        <div class="product-container">
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUsvwXkytE1Y8nnal25hxmKOgGh4db8-GvnA&s" alt="Limited Edition F.C. Barcelona Coldplay Kit">
+                <h3>Limited Edition F.C. Barcelona Coldplay Kit</h3>
+                <p>Rp 10.000.000</p>
+            </div>
+           
+            <div class="product-card">
+                <img src="https://media.karousell.com/media/photos/products/2023/2/22/jersey_real_madrid_second_orig_1677040775_69861f21_progressive.jpg" alt="Jersey real madrid second original">
+                <h3>Jersey real madrid second original</h3>
+                <p>Rp 200.000</p>
+            </div>
+           
+            <div class="product-card">
+                <img src="data:image/jpeg;base64,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" alt="Juventus Third Jersey 2024/25 | MineJerseys">
+                <h3>Juventus Third Jersey 2024/25 | MineJerseys</h3>
+                <p>Rp 350.000</p>
+            </div>
+           
+            <div class="product-card">
+                <img src="data:image/jpeg;base64,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" alt="Bayern Munchen FC Jersey and Club kit ">
+                <h3>Bayern Munchen FC Jersey and Club kit </h3>
+                <p>Rp 300.000</p>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+<footer class="site-footer">
+    <p>&copy; 2025 AVG All rights reserved.</p>
+    <p>
+        <a href="#privacy">Privacy Policy</a> | 
+        <a href="#terms">Terms of Service</a> | 
+        <a href="#contact">Contact Us</a>
+    </p>
+    <p>Follow us on 
+        <a href="https://twitter.com" target="_blank">Twitter</a>, 
+        <a href="https://youtube.com" target="_blank">YouTube</a>, and 
+        <a href="https://instagram.com" target="_blank">Instagram</a>.
+    </p>
+</footerclass>
+
+</body>
+</html>
+
+   

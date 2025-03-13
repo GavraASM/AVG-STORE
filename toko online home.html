@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AVG Online Store</title>
+    <style>
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+       
+        .site-header {
+            background-color: rgb(45, 144, 108);
+            color: #f5f5f5;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .site-header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px; 
+        }
+
+        .site-header img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%; 
+            margin-top: 10px;
+        }
+
+        
+        .site-nav {
+            background-color: #e0f2f1;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .site-nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: rgb(45, 144, 108);
+            font-weight: bold;
+        }
+
+        .site-nav a:hover {
+            color: rgb(45, 144, 108);
+        }
+
+        
+        .site-main {
+            padding: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .intro {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .store-article {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+
+        .product-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .product-card {
+            background-color: #e0f7fa;
+            border: 2px solid #b2dfdb;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s; /* Smooth box-shadow transition */
+        }
+
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+        }
+
+        .product-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .product-card h3 {
+            margin-top: 15px;
+            color: rgb(45, 144, 108);
+        }
+
+        .product-card p {
+            color: rgb(45, 144, 108);
+            font-weight: bold;
+        }
+
+       
+        .site-footer {
+            background-color: rgb(45, 144, 108);
+            color: #f5f5f5;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        .site-footer a {
+            color: #f5f5f5;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .site-footer a:hover {
+            text-decoration: underline;
+        }
+
+   
+        @media (max-width: 768px) {
+            .site-nav {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .site-nav a {
+                margin: 5px 0; /* Adjust spacing in the nav */
+            }
+
+            .site-main {
+                padding: 20px; /* Adjust padding on smaller screens */
+            }
+
+            .product-container {
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Allow for more columns on smaller screens */
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="site-header">
+        <h1>AVG</h1>
+        <h3>High Quality Products With Low Prices!</h3>
+        <img src="WhatsApp Image 2025-02-18 at 17.24.12.jpeg" alt="AVG Logo">
+    </header>
+
+    <nav class="site-nav">
+        <a href="toko online home.html">Home</a>
+        <a href="toko online.html">Store</a>
+    </nav>
+
+    <main class="site-main">
+        <article class="store-article">
+            <h2>Welcome to AVG Online Store!</h2>
+            <p>AVG Online Store prides itself on offering a diverse selection of products to cater to a wide range of needs and
+                interests. Whether you're a tech enthusiast, a fashion-forward individual, or simply looking for everyday
+                essentials, you'll find something to pique your interest.</p>
+        </article>
+
+        <article class="store-article">
+            <h2>A Unique Shopping Experience</h2>
+            <p>AVG Online Store aims to be more than just a place to buy products. They strive to create a community where
+                customers can discover new trends, find inspiration, and connect with other like-minded individuals.</p>
+        </article>
+
+        <article class="store-article">
+            <h2>Why Choose AVG Online Store?</h2>
+            <p>
+            <p>Curated Selection: AVG Online Store carefully selects its products, ensuring quality and value. You can shop
+                with confidence, knowing that you're getting the best.</p>
+
+            <p>User-Friendly Experience: The website is designed for easy navigation, making your online shopping experience
+                smooth and enjoyable.</p>
+
+            <p> Secure Transactions: AVG Online Store prioritizes your security, offering safe and secure payment options to
+                protect your information.1</p>
+            </p>
+        </article>
+    </main>
+
+    <footer class="site-footer">
+        <p>© 2025 AVG All rights reserved.</p>
+        <p>
+            <a href="#privacy">Privacy Policy</a> |
+            <a href="#terms">Terms of Service</a> |
+            <a href="#contact">Contact Us</a>
+        </p>
+        <p>Follow us on
+            <a href="https://twitter.com" target="_blank">Twitter</a>,
+            <a href="https://youtube.com" target="_blank">Youtube</a>, and
+            <a href="https://instagram.com" target="_blank">Instagram</a>.
+        </p>
+    </footer>
+</body>
+
+</html>
